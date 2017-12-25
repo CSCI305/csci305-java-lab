@@ -232,8 +232,8 @@ You may use any Java libraries you choose.
 
 These questions are required by students working in teams. Individuals may complete this exercise, but it is not required.
 
-   | Question
--- | --------
+ #  | Question
+--- | --------
 10 | Which Java libraries did you use? List any (major) libraries you used and give a brief assessment (likes/dislikes) of each.
 11 | Take a screenshot of your GUI following a complete game. Save this as an image file (preferably a .png). You will submit this file.
 
