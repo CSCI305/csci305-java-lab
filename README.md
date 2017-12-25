@@ -101,14 +101,16 @@ Player `LastPlayBot` will always play the move that the opponent played on the p
 Next, you will define a `Human` class. This Player will ask the user to determine the move. For each turn, the `play()` method will print the options and request input from the user, as in Figure 1. Be sure to only accept valid moves from the user.
 
 ### Sample output of a move from the `Human` Player
->  (1) : Rock
->  (2) : Paper
->  (3) : Scissors
->  (4) : Lizard
->  (5) : Spock
->  Enter your move: 6
->  Invalid move. Please try again.
->  Enter your move: 2
+```
+  (1) : Rock
+  (2) : Paper
+  (3) : Scissors
+  (4) : Lizard
+  (5) : Spock
+  Enter your move: 6
+  Invalid move. Please try again.
+  Enter your move: 2
+```
 
 ## My Bot
 Lastly, define a class `MyBot`. This Player can employ any strategy you determine that \textbf{differs} from the other Players described above. You will describe your strategy in your Lab Report.
@@ -132,10 +134,10 @@ You can now test your Player classes. For example, the code:
 ```
 
 might yield the following output:
- 
-> \begin{verbatim}
->  Rock crushes Scissors -- Lose
-> \end{verbatim}
+
+``` 
+  Rock crushes Scissors -- Lose
+```
 
 ## Main Class
 
@@ -169,53 +171,55 @@ The following questions are for feedback and evaluation purposes. Points are awa
 9 | Approximately how many hours did you spend on this lab?
 
 #### Figure 2. Sample Game Output
->  Welcome to Rock, Paper, Scissors, Lizard, Spock, implemented by <Your Name Here>.
->  
->  Please choose two players:
->     (1) Human
->     (2) StupidBot
->     (3) RandomBot
->     (4) IterativeBot
->     (5) LastPlayBot
->     (6) MyBot
->  
->  Select player 1: 2
->  Select player 2: 3
->  
->  StupidBot vs RandomBot. Go!
->  
->  Round 1:
->    Player 1 chose Scissors
->    Player 2 chose Rock
->    Rock crushes Scissors
->    Player 2 won the round
->    
->  Round 2:
->    Player 1 chose Scissors
->    Player 2 chose Spock
->    Spock smashes Scissors
->    Player 2 won the round
->    
->  Round 3:
->    Player 1 chose Scissors
->    Player 2 chose Paper
->    Scissors cut Paper
->    Player 1 won the round
->    
->  Round 4:
->    Player 1 chose Scissors
->    Player 2 chose Lizard
->    Scissors decapitate Lizard
->    Player 1 won the round
->    
->  Round 5:
->    Player 1 chose Scissors
->    Player 2 chose Scissors
->    Scissors equals Scissors
->    Round was a tie
->    
->  The score is 2 to 2.
->  Game was a draw
+```
+  Welcome to Rock, Paper, Scissors, Lizard, Spock, implemented by <Your Name Here>.
+  
+  Please choose two players:
+     (1) Human
+     (2) StupidBot
+     (3) RandomBot
+     (4) IterativeBot
+     (5) LastPlayBot
+     (6) MyBot
+  
+  Select player 1: 2
+  Select player 2: 3
+  
+  StupidBot vs RandomBot. Go!
+  
+  Round 1:
+    Player 1 chose Scissors
+    Player 2 chose Rock
+    Rock crushes Scissors
+    Player 2 won the round
+    
+  Round 2:
+    Player 1 chose Scissors
+    Player 2 chose Spock
+    Spock smashes Scissors
+    Player 2 won the round
+    
+  Round 3:
+    Player 1 chose Scissors
+    Player 2 chose Paper
+    Scissors cut Paper
+    Player 1 won the round
+    
+  Round 4:
+    Player 1 chose Scissors
+    Player 2 chose Lizard
+    Scissors decapitate Lizard
+    Player 1 won the round
+    
+  Round 5:
+    Player 1 chose Scissors
+    Player 2 chose Scissors
+    Scissors equals Scissors
+    Round was a tie
+    
+  The score is 2 to 2.
+  Game was a draw
+```
  
 # Team Extension
 You must select a partner different from your partner for the second ML Lab. If you choose to work in a team, you must complete this team extension. You will re-implement your game with a GUI in Java. This is an open-ended extension and you may accomplish this anyway you choose.
