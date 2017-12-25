@@ -2,7 +2,7 @@
 ## Java Programming Lab
 
 ## Concepts of Programming Languages
-## CSCI 305, Spring 2018}
+## CSCI 305, Spring 2018
 
 # Due: April 16, 2018 at Midnight (MDT)
 
@@ -75,9 +75,11 @@ public class TestElements {
  
 Should yield the following output:
 
->  Paper covers rock -- Lose
->  Paper covers rock -- Win
->  Rock equals rock -- Tie
+```
+  Paper covers rock -- Lose
+  Paper covers rock -- Win
+  Rock equals rock -- Tie
+```
 
 ## Player Class
 
