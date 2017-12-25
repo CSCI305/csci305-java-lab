@@ -154,21 +154,19 @@ This lab requires an independent study of the Java language. You are encouraged 
 Given the size of the class, I will not be able to debug your code for you. Allow yourself plenty of time, and use patience, perseverance, and the internet to debug your code. I will gladly answer clarifying questions about the goals and instructions of the Lab assignment.
 
 # Lab Questions
-   | Question
--- | --------  
-1 | Describe your Player `LastPlayBot`. How did you implement this strategy?
-2 | Describe your Player `MyBot`, explaining the strategy you employed and how you accomplished it.
-3 | Using the course notes and any web resources of your choosing, explain the type system of Java, giving attention to the concepts of binding time, dynamic vs. static typing, strong vs. weak typing, and user-defined types (classes). Cit any sources you used other than class discussion or the textbook.
-4 | Play a number of games, selecting your various players. Do you notice any trends? Are you, as the Human Player, able to beat any of the Bots on a consistent basis?
-5 | Read the wikipedia entry on Normal Form Games (\url{http://en.wikipedia.org/wiki/Normal-form\_game}). Also, review the wikipedia page \url{http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock}. Is it possible to design a Player strategy that is more likely to succeed? Why or why not? Explain in a paragraphy. It is possible to answer this question even if you did not finish the Lab.
+
+1. Describe your Player `LastPlayBot`. How did you implement this strategy?
+2. Describe your Player `MyBot`, explaining the strategy you employed and how you accomplished it.
+3. Using the course notes and any web resources of your choosing, explain the type system of Java, giving attention to the concepts of binding time, dynamic vs. static typing, strong vs. weak typing, and user-defined types (classes). Cit any sources you used other than class discussion or the textbook.
+4. Play a number of games, selecting your various players. Do you notice any trends? Are you, as the Human Player, able to beat any of the Bots on a consistent basis?
+5. Read the wikipedia entry on Normal Form Games (\url{http://en.wikipedia.org/wiki/Normal-form\_game}). Also, review the wikipedia page \url{http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock}. Is it possible to design a Player strategy that is more likely to succeed? Why or why not? Explain in a paragraphy. It is possible to answer this question even if you did not finish the Lab.
 
 The following questions are for feedback and evaluation purposes. Points are awarded for any sincere answer.
-   | Question
--- | --------
-6 | Name something you like about Java. Explain.
-7 | Name something you dislike about Java. Explain.
-8 | Did you enjoy this lab? Which aspects did you like and/or dislike?
-9 | Approximately how many hours did you spend on this lab?
+
+6. Name something you like about Java. Explain.
+7. Name something you dislike about Java. Explain.
+8. Did you enjoy this lab? Which aspects did you like and/or dislike?
+9. Approximately how many hours did you spend on this lab?
 
 #### Figure 2. Sample Game Output
 ```
@@ -232,26 +230,22 @@ You may use any Java libraries you choose.
 
 These questions are required by students working in teams. Individuals may complete this exercise, but it is not required.
 
- #  | Question
---- | --------
-10 | Which Java libraries did you use? List any (major) libraries you used and give a brief assessment (likes/dislikes) of each.
-11 | Take a screenshot of your GUI following a complete game. Save this as an image file (preferably a .png). You will submit this file.
+10. Which Java libraries did you use? List any (major) libraries you used and give a brief assessment (likes/dislikes) of each.
+11. Take a screenshot of your GUI following a complete game. Save this as an image file (preferably a .png). You will submit this file.
 
 
 ## Partner Evaluation
 
 This response is required by students working in teams. This is your opportunity to assign your partner up to 10 points based on his or her contribution to the project. \textit{This response will remain confidential.
 
-   | Question
--- | --------
-13 | In one paragraph, describe your working relationship with your partner and your division of work. Did you divide and conquer? Did you work together on all parts? Was this a productive collaboration? Did each team member pull his or her own weight?
+13. In one paragraph, describe your working relationship with your partner and your division of work. Did you divide and conquer? Did you work together on all parts? Was this a productive collaboration? Did each team member pull his or her own weight?
 
 Please evaluate your partner's contribution on the lab with a score from 0 (no work) to 10 (equal partner).
 
 # Submission
 Each student will complete and submit this assignment individually or in a two-person team. Do not consult with others. However, you are encouraged to use the internet to learn any aspect of Java you need to complete the assignment.
 
-Comment your program heavily. Intelligent comments and a clean, readable formatting of your code accounts for 20\% of your grade.
+Comment your program heavily. Intelligent comments and a clean, readable formatting of your code accounts for 20% of your grade.
 
 Save the final version of your program and zip the source code into a file named `[lastname]_[firstname].java2.zip`. Type your lab questions in plain text as `[lastname]_[firstname].java2.txt`. Include your name in the text file. If you completed the team extension, submit the additional version as `[lastname]_[firstname].java2-ext.zip`. Save your screenshot as `[lastname]_[firstname].java2-ext.png`.
 
