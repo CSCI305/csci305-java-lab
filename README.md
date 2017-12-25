@@ -18,8 +18,7 @@ Rock-paper-scisors-lizard-Spock is a five-gesture expansion of the classic game 
 
 This diagram explains the outcomes of the game:
 
-![Image of RPSLS]
-(https://vignette.wikia.nocookie.net/bigbangtheory/images/7/7d/RPSLS.png/revision/latest?cb=20120822205915)
+![Image of RPSLS](https://vignette.wikia.nocookie.net/bigbangtheory/images/7/7d/RPSLS.png/revision/latest?cb=20120822205915)
 
 ## Implementation
 
