@@ -46,13 +46,13 @@ I will gladly answer **clarifying questions about the goals and instructions of 
 
 # Java
 
-For this lab you will use Java. Java is already install on all machines in the lab, if you wish to install Java yourself, please visit http://www.oracle.com/java
+For this lab you will use Java. Java is already install on all machines in the lab, if you wish to install Java yourself, please visit [Java Website](http://www.oracle.com/java).
 
-All students should use Java 8 Standard Edition for this lab.
+All students should use **Java 8 Standard Edition** for this lab.
 
 # Game Overview
 
-Rock-paper-scisors-lizard-Spock is a five-gesture expansion of the classic game rock-paper-scissors. The game was invented by Sam Kass, but popularized in the clip from the TV show `Big Bang Theory`: https://www.youtube.com/watch?v=x5Q6-wMx-K8. You may also find the wikipedia page useful: http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock.
+Rock-paper-scissors-lizard-Spock is a five-gesture expansion of the classic game rock-paper-scissors. The game was invented by Sam Kass, but popularized in the clip from the TV show `Big Bang Theory`: [Click to see a clip](https://www.youtube.com/watch?v=x5Q6-wMx-K8). You may also find the Wikipedia page [on the game](http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock) useful as well.
 
 This diagram explains the outcomes of the game:
 
@@ -75,7 +75,7 @@ This project uses gradle to manage dependencies and to build the project. Thus y
   ```
     .\gradlew.bat clean build
   ```
-2. **Testing the project:** Agina, from the project root directory, in the terminal/console run the following command:
+2. **Testing the project:** Again, from the project root directory, in the terminal/console run the following command:
   * On Mac and Linux:
   ```
     ./gradlew clean test
@@ -89,7 +89,7 @@ This project uses gradle to manage dependencies and to build the project. Thus y
 
 For this lab, you will implement this game, in Java, in an object-oriented way.
 
-Failure to implement the game using OO paradigms (as described below) will result in a significant loss of points.
+Failure to implement the game using an Object Oriented approach (as described below) will result in a significant loss of points.
 
 #### All classes developed as a part of this project should be located in the package: `csci305.javalab`
 This package starts in the folder `src/main/java`
@@ -220,7 +220,7 @@ Now, using a loop structure, play five rounds of Rock-Paper-Scissors-Lizard-Spoc
 2. Describe your Player `MyBot`, explaining the strategy you employed and how you accomplished it. (5 points)
 3. Using the course notes and any web resources of your choosing, explain the type system of Java, giving attention to the concepts of binding time, dynamic vs. static typing, strong vs. weak typing, and user-defined types (classes). Cite any sources you used other than class discussion or the textbook. (15 points)
 4. Play a number of games, selecting your various players. Do you notice any trends? Are you, as the Human Player, able to beat any of the Bots on a consistent basis? (5 points)
-5. Read the wikipedia entry on Normal Form Games (http://en.wikipedia.org/wiki/Normal-form_game). Also, review the wikipedia page http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock. Is it possible to design a Player strategy that is more likely to succeed? Why or why not? Explain in a paragraph. It is possible to answer this question even if you did not finish the Lab. (10 points)
+5. Read the wikipedia entry on [Normal Form Games](http://en.wikipedia.org/wiki/Normal-form_game). Also, review the Wikipedia page on [Rock-paper-scissors-lizard-Spock](http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock). Is it possible to design a Player strategy that is more likely to succeed? Why or why not? Explain in a paragraph. It is possible to answer this question even if you did not finish the Lab. (10 points)
 
 The following questions are for feedback and evaluation purposes. Points are awarded for any sincere answer. (1 point per question)
 
@@ -231,7 +231,7 @@ The following questions are for feedback and evaluation purposes. Points are awa
 10. How much experience have you had in Java prior to this course?
 
 Finally, 5 points will be given upon evaluation of your code for the following:
-* Appropriate comments for each non-overriden public method.
+* Appropriate comments for each non-overridden public method.
 * Appropriate comments for each class defined.
 * Code is well formatted and easy to read.
 * All types defined the assignment are defined in your code.
