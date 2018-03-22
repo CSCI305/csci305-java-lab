@@ -289,7 +289,7 @@ Finally, 5 points will be given upon evaluation of your code for the following:
 ```
 
 # Submission
-Each student will complete and submit this assignment individually or in a two-person team. Do not consult with others. However, you are encouraged to use the Internet to learn any aspect of Java you need to complete the assignment.
+Each student will complete and submit this assignment individually. Do not consult with others. However, you are encouraged to use the Internet to learn any aspect of Java you need to complete the assignment.
 
 Comment your program appropriately.
 
@@ -297,7 +297,7 @@ Save the final version of your program and zip the source code into a file named
 
 We must be able to run your program from the command line with no arguments.
 
-Team members will submit identical code, but each student must submit individually. Submit your files to the Java Program 2 dropbox folder on BrightSpace. Submit your files before the due date as late submissions will not be accepted.
+Submit your files to the Java Lab dropbox folder on BrightSpace. Submit your files before the due date as late submissions will not be accepted.
 
 # Grading
 Total Assignment Points: 90, Total Grade Points: 7.5
