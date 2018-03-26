@@ -4,7 +4,7 @@
 ## Concepts of Programming Languages
 ## CSCI 305, Spring 2018
 
-# Due: April 13, 2018 at Midnight (MDT)
+# Due: April 11, 2018 at Midnight (MDT)
 
 Table of Contents
 =================
