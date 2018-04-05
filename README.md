@@ -75,14 +75,14 @@ This project uses gradle to manage dependencies and to build the project. Thus y
   ```
     .\gradlew.bat clean build
   ```
-2. **Testing the project:** Again, from the project root directory, in the terminal/console run the following command:
+2. **Running the project:** Again, from the project root directory, in the terminal/console run the following command:
   * On Mac and Linux:
   ```
-    ./gradlew clean test
+    ./gradlew clean run
   ```
   * On Windows:
   ```
-    .\gradlew.bat clean test
+    .\gradlew.bat clean run
   ```
 
 ## Implementation

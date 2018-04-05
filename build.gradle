@@ -34,6 +34,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-// Define the main class for the application
-mainClassName = 'App'
+run {
+  standardInput = System.in
+}
 
+// Define the main class for the application
+mainClassName = 'csci305.javalab.Main'
