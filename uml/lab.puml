@@ -1,0 +1,83 @@
+@startuml
+
+package csci305.javalab {
+abstract class Element {
+ # name : String
+ + {abstract} compareTo() : Outcome
+}
+abstract class Player {
++ {abstract} play() : Element
+}
+
+class StupidBot {
++ play() : Element
+}
+
+class RandomBot {
++ play() : Element
+}
+
+class IterativeBot {
++ play() : Element
+}
+
+class LastPlayBot {
++ play() : Element
+}
+
+class HumanPlayer {
++ play() : Element
+}
+
+class MyBot {
++ play() : Element
+}
+
+class Main {
++ {static} main(args:String[]) : void
+}
+
+class Outcome {
+- outcome : String
+- value : String
+}
+
+class Rock {
++ compareTo() : Outcome
+}
+
+class Paper {
++ compareTo() : Outcome
+}
+
+class Scissors {
++ compareTo() : Outcome
+}
+
+class Lizard {
++ compareTo() : Outcome
+}
+
+class Spock {
++ compareTo() : Outcome
+}
+
+Player <|-- StupidBot
+Player <|-- RandomBot
+Player <|-- IterativeBot
+Player <|-- LastPlayBot
+Player <|-- HumanPlayer
+Player <|-- MyBot
+
+Element <|-- Rock
+Element <|-- Paper
+Element <|-- Scissors
+Element <|-- Lizard
+Element <|-- Spock
+
+Main *--> Element
+Main ..> Player
+
+Element .> Outcome
+}
+@enduml
